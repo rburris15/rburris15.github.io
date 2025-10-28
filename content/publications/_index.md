@@ -1,5 +1,5 @@
 ---
-title: Publications
+title: Papers and Publications
 cms_exclude: true
 
 # View.
