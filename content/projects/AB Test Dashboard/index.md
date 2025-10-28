@@ -1,6 +1,6 @@
 ---
 title: A/B Testing & Power Analysis
-date: September 2025
+date: 2025-09-01
 links:
   - type: site
     url: https://github.com/rburris15/airbnb-abtest-dashboard
