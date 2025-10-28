@@ -74,8 +74,8 @@ work:
     company_name: Muscular Dystrophy Association
     company_url: 'https://mda.org'
     icon: ''
-    date_start: 2020
-    date_end: 'September 2025'
+    date_start: '2020-01-01'
+    date_end: '2025-09-26'
     summary: |2-
       Develop and deploy ML and generative-AI models supporting analytics and research applications across business domains.
   - position: Data Science, Teaching Assistant
