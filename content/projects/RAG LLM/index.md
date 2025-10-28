@@ -1,5 +1,5 @@
 ---
-title: Creating a Grounded LLM: Balancing Augmentation with Honesty
+title: Creating a Grounded LLM - Balancing Augmentation with Honesty
 date: 2025-10-10
 links:
   - type: site
