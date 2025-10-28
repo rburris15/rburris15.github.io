@@ -8,6 +8,8 @@
 
 # Generated site output
 public/
+content/blog/
+content/events/
 
 # Hugo resources (processed assets)
 resources/
