@@ -9,8 +9,10 @@ name_pronunciation: ''
 first_name: Rachael
 last_name: Burris
 
-# Pronouns (optional)
+
 pronouns: She/her
+
+# Location
 location: Düsseldorf, DE
 
 # Status emoji
