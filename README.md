@@ -26,9 +26,9 @@ Each project includes summaries, visual examples, and links to notebooks or live
 ---
 
 ## 🧱 Structure
-portfolio/
-├─ content/ # Bio, Publications, Projects and Experience
-├─ static/ # profile picture and resume
-├─ config/_default/ # Site configuration files (menu, modules, languages)
-├─ layouts
-└─ README.md
+portfolio/  
+├─ content/ # Bio, Publications, Projects and Experience  
+├─ static/ # profile picture and resume  
+├─ config/_default/ # Site configuration files (menu, modules, languages)  
+├─ layouts  
+└─ README.md  
