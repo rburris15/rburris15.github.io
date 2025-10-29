@@ -1,4 +1,4 @@
-# Eachael Burris — Data Science Portfolio
+# Rachael Burris — Data Science Portfolio
 
 This site is a **personal portfolio** showcasing projects in data analytics, visualization, and machine learning.  
 Built using the [**HugoBlox**](https://hugoblox.com/) open-source framework for Hugo.
