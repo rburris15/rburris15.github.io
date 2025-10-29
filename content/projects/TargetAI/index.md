@@ -2,8 +2,11 @@
 title: Target AI - A free, local chatbot to derive clinical insights
 date: 2023-10-26
 links:
-  - type: site
+  - type: GitHub Repo
     url: https://github.com/rburris15/TargetAI
+  - type: datasets
+    url: https://www.opentargets.org/
+
 tags:
   - LLM
   - local computation

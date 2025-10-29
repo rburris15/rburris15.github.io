@@ -1,9 +1,5 @@
 ---
 title: Papers and Publications
-cms_exclude: true
-
-# View.
-view: citation
 
 design:
   # Section spacing

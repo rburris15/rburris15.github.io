@@ -4,6 +4,8 @@ date: 2025-09-01
 links:
   - type: site
     url: https://github.com/rburris15/airbnb-abtest-dashboard
+  - type: dataset
+    url: https://insideairbnb.com/berlin/
 tags:
   - Streamlit
   - A/B Testing
