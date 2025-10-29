@@ -30,7 +30,7 @@ role: Data Science and AI
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: 
+  - name: Düsseldorf, DE
     url: 
 
 # Social network links
@@ -58,7 +58,7 @@ education:
     date_start: 2020-09-01
     date_end: 2022-03-30
     summary: |
-      Capstone Project on Speaker Identification & Few-Shot Keyword Spotting for Edge Devices. Supervised by Dr Utku Pamukz. _Awarded Best in Show_
+      Capstone Project on Speaker Identification & Few-Shot Keyword Spotting for Edge Devices. Supervised by Dr Utku Pamuksuz. _Awarded Best in Show_
     button:
       text: 'Read Paper'
       url: 'https://drive.google.com/file/d/1_gB9OcBcDUdxzTcD-2kt_DqDqYEdSQ2n/view?usp=sharing)'
@@ -143,4 +143,4 @@ awards:
     
 ---
 
-Rachael is a data science and machine learning engineer with 5 years of experience developing, deploying, and optimizing ML and generative-AI systems. Skilled in Python, PyTorch, and cloud-based model deployment with a focus on responsible, scalable, and fair AI applications. Adept at transforming data-science prototypes into production-ready models through CI/CD and close collaboration with product and engineering teams. Passionate about advancing equitable technology that improves decision-making and saves users time.
+Rachael is a data science and machine learning engineer with 5 years of experience developing and optimizing automated, data driven tools -- from interactive executive dashboards, to free, open source AI applications. Skilled in business translation, python, and cloud based platforms with a focus on responsible and user friendly solutions. Adept at transforming complex business challenges into production-ready products through CI/CD and close cross-functional collaboration. Passionate about advancing equitable technology that improves decision-making and saves users time.
