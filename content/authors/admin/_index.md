@@ -11,10 +11,11 @@ last_name: Burris
 
 # Pronouns (optional)
 pronouns: She/her
+location: Düsseldorf, DE
 
 # Status emoji
-status:
-  icon: 🚀
+#status:
+#  icon: 🚀
 
 # Is this the primary user of the site?
 superuser: true
@@ -125,8 +126,8 @@ skills:
 languages:
   - name: English
     percent: 100
-  - name: German
-    percent: 01
+  #- name: German
+    #percent: 01
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -140,4 +141,4 @@ awards:
     
 ---
 
-Rachael is a Data Science and Machine Learning Engineer with 5 years of experience developing, deploying, and optimizing ML and generative-AI systems. Skilled in Python, PyTorch, and cloud-based model deployment with a focus on responsible, scalable, and fair AI applications. Adept at transforming data-science prototypes into production-ready models through CI/CD and close collaboration with product and engineering teams. Passionate about advancing equitable technology that improves decision-making and saves users time.
+Rachael is a data science and machine learning engineer with 5 years of experience developing, deploying, and optimizing ML and generative-AI systems. Skilled in Python, PyTorch, and cloud-based model deployment with a focus on responsible, scalable, and fair AI applications. Adept at transforming data-science prototypes into production-ready models through CI/CD and close collaboration with product and engineering teams. Passionate about advancing equitable technology that improves decision-making and saves users time.

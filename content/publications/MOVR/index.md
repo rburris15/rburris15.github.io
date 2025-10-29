@@ -1,5 +1,5 @@
 ---
-title: "An example preprint / working paper"
+title: "Initial Observations from the MOVR Data Hub: A Multi-Disease Digital Platform for Remote Research in Neurological Diseases"
 authors:
 - admin
 - Elizabeth Kilroy

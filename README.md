@@ -3,7 +3,6 @@
 This site is a **personal portfolio** showcasing projects in data analytics, visualization, and machine learning.  
 Built using the [**HugoBlox**](https://hugoblox.com/) open-source framework for Hugo.
 
----
 
 ## 🌐 Overview
 
@@ -14,7 +13,6 @@ This portfolio highlights my work in:
 
 Each project includes summaries, visual examples, and links to notebooks or live dashboards.
 
----
 
 ## ⚙️ Tech Stack
 
@@ -22,8 +20,6 @@ Each project includes summaries, visual examples, and links to notebooks or live
 - **Hugo** — static site generator  
 - **Markdown** — project and post authoring  
 - **GitHub Pages** — hosting and version control  
-
----
 
 ## 🧱 Structure
 portfolio/  

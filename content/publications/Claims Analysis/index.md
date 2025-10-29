@@ -26,7 +26,7 @@ abstract: Claims-based analyses have demonstrated high medical costs associated 
 
 tags:
 - Source Themes
-featured: false
+featured: true
 
 hugoblox:
   ids:
