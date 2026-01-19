@@ -54,7 +54,7 @@ interests:
 education:
   - area: Masters in Applied Data Science (AI Focus)
     institution: University of Chicago
-    icon: uc_logo_white
+    icon: custom/uc-logo-white
     date_start: 2020-09-01
     date_end: 2022-03-30
     summary: |
@@ -64,7 +64,7 @@ education:
       url: 'https://drive.google.com/file/d/1FsLdoDboVMoCwg72_S9ygIwFXJyxzBol/view?usp=sharing'
   - area: Bachelors of Arts
     institution: University of Washington
-    icon: uw_logo_white
+    icon: custom/uw-logo-white
     date_start: 2011-09-01
     date_end: 2015-05-31
     summary: |
@@ -134,7 +134,7 @@ skills:
       - name: Health & Fitness
         description: ''
         percent: 70
-        icon: barbell
+        icon: person-simple-walk
 
 
 languages:
