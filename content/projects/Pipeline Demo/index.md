@@ -21,7 +21,7 @@ This project demonstrates an end-to-end analytics engineering workflow using Sno
 
 Starting from a compressed flat file export, I designed and implemented a production-ready data pipeline that loads, profiles, cleans, and models flight transaction data within Snowflake. The final deliverable includes a normalized star schema with a central fact table, supporting dimension tables, and a business-friendly analytical view that abstracts technical complexity for downstream users.
 
-Key Objectives
+**Key Objectives**
 
 - Rapidly understand and profile unfamiliar, real-world transportation data
 
@@ -33,21 +33,21 @@ Key Objectives
 
 - Expose analytics-ready features for business users and consultants
 
-What Was Built
+**What Was Built**
 
 FACT_FLIGHTS: A transactional fact table containing flight-level measures and engineered analytical fields, including:
 
-Distance banding (DISTANCEGROUP) for mileage-based analysis
+  - Distance banding (DISTANCEGROUP) for mileage-based analysis
 
-Operational performance indicators such as departure delays over 15 minutes (DEPDELAYGT15)
+  - Operational performance indicators such as departure delays over 15 minutes (DEPDELAYGT15)
 
-Logical flags for next-day arrivals (NEXTDAYARR)
+  - Logical flags for next-day arrivals (NEXTDAYARR)
 
-DIM_ tables*: Curated dimensions to support slicing and filtering, with cleaned airline and airport naming conventions to improve usability and readability
+DIM_tables: Curated dimensions to support slicing and filtering, with cleaned airline and airport naming conventions to improve usability and readability
 
 VW_FLIGHTS: A consolidated analytics view joining facts and dimensions, designed specifically for consumption by Tableau and non-technical stakeholders
 
-Data Quality & Modeling Considerations
+**Data Quality & Modeling Considerations**
 
 Identified and corrected obvious data inconsistencies where feasible (e.g., malformed names, timing edge cases)
 
@@ -57,17 +57,17 @@ Applied appropriate data typing and transformations to ensure accurate aggregati
 
 Preserved original column naming to meet automated validation and governance constraints
 
-Tools & Technologies
+**Tools & Technologies**
 
-Snowflake (staging, SQL transformations, dimensional modeling)
+  - Snowflake (staging, SQL transformations, dimensional modeling)
 
-Cloud file ingestion via named stages
+  - Cloud file ingestion via named stages
 
-Tableau-oriented semantic modeling
+  - Tableau-oriented semantic modeling
 
-SQL-based feature engineering and data validation
+  - SQL-based feature engineering and data validation
 
-Outcome
+**Outcome**
 
 The result is a clean, well-documented analytics layer that enables flight performance analysis by airline, route, distance band, and operational reliability—while demonstrating strong judgment in data modeling, quality handling, and stakeholder-oriented design.
 

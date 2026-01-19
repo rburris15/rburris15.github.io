@@ -84,20 +84,11 @@ projects:
 slides: ""
 ---
 
-## Abstract
-  Demand for portable computers, known as edge computing devices, has been on the rise in the
-  past decade. To keep pace with the ever increasing speed of the internet, research into the
-  optimization of edge devices is crucial. Each year, Consumers expect more computing power,
-  faster results, and increased security than previously available. Maxim Integrated, an edge device
-  and computing company, has been working towards developing a cutting edge solution, using
-  embedded technology that conducts deep convolutional neural network operations on low-bit
-  and low-power accelerators (MAX78000). We aim to provide a solution to train a deep learning
-  system that can fit MAX78000 to recognize customized keywords and speaker efficiency by
-  training the Siamese neural network that performs with maximum precision and fewer false
-  alarms per hour of speech.
+### Abstract
+Demand for portable computers, known as edge computing devices, has been on the rise in the past decade. To keep pace with the ever increasing speed of the internet, research into the optimization of edge devices is crucial. Each year, Consumers expect more computing power, faster results, and increased security than previously available. Maxim Integrated, an edge device and computing company, has been working towards developing a cutting edge solution, using embedded technology that conducts deep convolutional neural network operations on low-bit and low-power accelerators (MAX78000). We aim to provide a solution to train a deep learning system that can fit MAX78000 to recognize customized keywords and speaker efficiency by training the Siamese neural network that performs with maximum precision and fewer false alarms per hour of speech.
 
 
-## Introduction
+### Introduction
 
 Business at Maxim Integrated is focused on solving engineering problems to empower
 design innovation and create products that shape the world. One such application of this is
@@ -106,7 +97,7 @@ size while increasing in power efficiency and sophistication. Edge devices serve
 uses, though today’s interest in hands-free technology and automation make audio recognition a
 front runner.
 
-## Problem Statement
+### Problem Statement
 
 Current standards in a popular subset of audio recognition known as speech recognition
 models present several barriers in their industry. The most common of which is the sheer volume
@@ -118,7 +109,7 @@ larger remote computers for executing, and sending the response back to the devi
 two additional challenges – high computation power and internet connectivity. Indirectly, the use
 of cloud computation introduces security vulnerabilities (Tanui, Meshack, 2020).
 
-## Analysis Goals
+### Analysis Goals
 
 To overcome these challenges, we propose an artificial neural network for effective
 keyword and speaker recognition, leveraging unsupervised feature extraction, feature reduction,
@@ -144,7 +135,7 @@ By maximizing the trade-off of physical constraints of computing power and model
 accuracy, we deliver powerful audio recognition solutions to be implemented on Maxim
 Integrated’s specialized hardware.
 
-## Variables and Scope
+### Variables and Scope
 
 Key variables to be investigated therein include feature extraction methods, training
 sample size, and other neural network features that impact computational expense (GPU and
@@ -152,7 +143,7 @@ RAM consumption) such as loss function. While we will be optimizing our models f
 specific hardware provided by Maxim, as defined in this paper, we will not venture into
 hardware as variable, as it is outside the scope of this project.
 
-## Background
+### Background
 
 Maxim Integrated is an edge-computing technology company that manufactures and sells
 a wide variety of high-performance analog and mixed-signal products and technologies. Maxim
@@ -160,7 +151,7 @@ specializes in solving design challenges related to power efficiency for a wide 
 from cars to wearable devices, miniaturization, and security on application-specific solutions in
 the automotive, manufacturing, healthcare, communications, and cloud computing industries.
 
-## Literature Review
+### Literature Review
 
 _Few Shot Learning_
 
@@ -211,7 +202,7 @@ allowing the model to adapt and more accurately classify different labels. This 
 be an effective method for margin maximization and can improve model performance by
 increasing the separation between classes.
 
-## Data 
+### Data 
 
 _Data Sources_
 
@@ -245,7 +236,7 @@ artifacts such as microphone buzz. Some of the limitations of this dataset are t
 build a neural network model with Sparse Training Dataset, the Hardware limitation and trying
 to build a compact model.
 
-## Methodology
+### Methodology
 
 Our proposed model will build on each of the approaches discussed in our literature
 review. Starting with data transformation, we compare several unsupervised feature extraction
@@ -309,7 +300,7 @@ analysis, or PCA. PCA allows us to prune high dimensional outputs down by removi
 insignificant features, leaving the most necessary and heavily utilized features behind for further
 processing.
 
-## Modeling Framework
+### Modeling Framework
 
 _Architecture_
 
@@ -340,7 +331,7 @@ In comparing model performance on test accuracy, FairSeq with PCA performs best.
 From this baseline, we implement our siamese network with distance metric learning on the
 initial FairSeq PCA model.
 
-## Conclusion
+### Conclusion
 The accuracy improvement of combined methodologies of FairSeq, PCA and Siamese
 over traditional models prove worth deeper exploration and implementation in the audio
 recognition space. Combining Distance Metric Learning techniques with shallow neural
@@ -353,14 +344,14 @@ samples of a keyword. By leveraging a siamese keyword spotting model, not only i
 on users reduced without sacrificing model performance, but the added inconveniences and risks
 of cloud based competitors is also avoided.
 
-## Recommendations
+### Recommendations
 Future work is recommended on integrating KWS models for a speaker aware few shot
 keyword spotting model. Expanding model training and tuning on new sources of data, such as
 real-world collections would be a reasonable next step. Joining KWS models with additional
 audio recognition tools such as Speaker Identification and Noise Suppression would further
 improve the performance of audio recognition devices.
 
-## References
+### References
 
 Bromley, Jane, James Bentz, Léon Bottou, Isabelle Guyon, Yann LeCun, Cliff Moore, Eduard
 Säckinger, and Roopak Shah. “Signature Verification Using a 'Siamese' Time Delay
