@@ -3,8 +3,10 @@ title: Data Profiling and Modelling for Tableau Vizualizations
 date: 2025-12-01
 links:
   - type: site
+    name: Git Repo
     url: https://github.com/rburris15/USFlights
   - type: dataset
+    name: Data
     url: https://www.kaggle.com/datasets/shaivyac/us-airline-dataset
 
 featured: true

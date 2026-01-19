@@ -3,6 +3,7 @@ title: Creating a Grounded LLM - Balancing Augmentation with Factual Accuracy
 date: 2025-10-10
 links:
   - type: Site
+    name: HuggingFace Site
     url: https://huggingface.co/spaces/Rb1215/LRsTHAssistant
 tags:
   - Hugging Face
