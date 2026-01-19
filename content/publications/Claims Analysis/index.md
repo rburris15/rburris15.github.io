@@ -21,8 +21,6 @@ publication_types: ["journal"]
 publication: "*Wiley Online Library*(1)"
 publication_short: ""
 
-abstract: Claims-based analyses have demonstrated high medical costs associated with myasthenia gravis (MG). We examined the economic burden of MG from the perspective of affected people and their families.
-
 
 tags:
 - Real World Analysis
@@ -39,14 +37,6 @@ links:
   - type: pdf
     url: https://onlinelibrary.wiley.com/doi/epdf/10.1002/mus.28313
   - type: dataset
-    url: ""
-  - type: poster
-    url: ""
-  - type: project
-    url: ""
-  - type: source
-    url: ""
-  - type: video
     url: ""
 
 # Featured image
@@ -73,17 +63,25 @@ slides: ""
 
 **ABSTRACT**
 
-*Introduction/Aims*
 Claims-based analyses have demonstrated high medical costs associated with myasthenia gravis (MG). We examined the economic burden of MG from the perspective of affected people and their families.
 
-*Methods*
+
+**Introduction/Aims**
+
+Claims-based analyses have demonstrated high medical costs associated with myasthenia gravis (MG). We examined the economic burden of MG from the perspective of affected people and their families.
+
+**Methods**
+
 The Muscular Dystrophy Association developed and conducted an online survey of people with MG and their caregivers between October 26 and December 6, 2021. Major themes were: MG-associated financial decisions, quality of life, employment and direct/indirect costs of diagnosis, healthcare insurance, medical visits, medications/treatments, medical equipment/devices, and caregiving.
 
-*Results*
+**Results**
+
 Eight hundred people with MG and 238 caregivers responding on behalf of a person with MG completed the survey. Most respondents were white (85%) and about half (55%) had received a 4 year college degree or higher education. Respondents indicated that MG impacted their health, recreation, and finances. 70% reported making financial adjustments or seeking financial assistance. Annual out-of-pocket costs (mean, $15,798; median, $7750) were primarily driven by medications, cost to receive a diagnosis, and healthcare insurance premiums. People receiving infusions paid significantly more across all care domains. Demographic disparities were observed, with people of color, women, and those on disability paying significantly more to receive a diagnosis than their counterparts.
 
-*Discussion*
+**Discussion**
+
 The economic burden on people with MG and their families is substantial, primarily driven by direct costs. There is a need to engage more broadly with the MG community for generalizable information. Respondents were self-selected, which may impact results. The results will be used to educate the public and inform advocacy work, with the goal of improving the lives of people with MG.
 
 **Conflicts of Interest**
+
 G.P. and K.P. are employees of Argenx Pharmaceuticals (the project sponsor). A.A.H. has received research support from Argenx, Alexion, Cabaletta Bio, Viela Bio, UCB Pharma, Genentech, Regeneron, Sanofi, and Immunovant, and received consulting fees/ honoraria from Argenx, Alexion, Immunovant, Regeneron, and UCB Pharma. P.N. has received research support from Alexion, Dianthus, UCB, and PCORI and served on advisory boards for: Argenx, Alexion, Amgen, Janssen, GSK, Merck, Novartis, UCB; Consultations: CVS pharmacy, ImmuneAbs, Dianthus, Study DSMB member Sanofi, Argenx. The remaining authors declare no conflicts of interest.
