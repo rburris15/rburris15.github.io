@@ -3,8 +3,10 @@ title: A/B Testing & Power Analysis
 date: 2025-09-01
 links:
   - type: site
+    name: Git Repo
     url: https://github.com/rburris15/airbnb-abtest-dashboard
   - type: dataset
+    name: Data
     url: https://insideairbnb.com/berlin/
 tags:
   - Streamlit
