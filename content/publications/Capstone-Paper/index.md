@@ -29,16 +29,6 @@ publication_types: ['paper']
 
 publication_short: In *ICW*
 
-abstract: Demand for portable computers, known as edge computing devices, has been on the rise in the
-  past decade. To keep pace with the ever increasing speed of the internet, research into the
-  optimization of edge devices is crucial. Each year, Consumers expect more computing power,
-  faster results, and increased security than previously available. Maxim Integrated, an edge device
-  and computing company, has been working towards developing a cutting edge solution, using
-  embedded technology that conducts deep convolutional neural network operations on low-bit
-  and low-power accelerators (MAX78000). We aim to provide a solution to train a deep learning
-  system that can fit MAX78000 to recognize customized keywords and speaker efficiency by
-  training the Siamese neural network that performs with maximum precision and fewer false
-  alarms per hour of speech.
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -94,7 +84,21 @@ projects:
 slides: ""
 ---
 
-Introduction
+**Abstract**
+  Demand for portable computers, known as edge computing devices, has been on the rise in the
+  past decade. To keep pace with the ever increasing speed of the internet, research into the
+  optimization of edge devices is crucial. Each year, Consumers expect more computing power,
+  faster results, and increased security than previously available. Maxim Integrated, an edge device
+  and computing company, has been working towards developing a cutting edge solution, using
+  embedded technology that conducts deep convolutional neural network operations on low-bit
+  and low-power accelerators (MAX78000). We aim to provide a solution to train a deep learning
+  system that can fit MAX78000 to recognize customized keywords and speaker efficiency by
+  training the Siamese neural network that performs with maximum precision and fewer false
+  alarms per hour of speech.
+---
+
+## Introduction
+
 Business at Maxim Integrated is focused on solving engineering problems to empower
 design innovation and create products that shape the world. One such application of this is
 wearable technology, or edge devices, where they aim to enhance portable devices by reducing
@@ -102,7 +106,8 @@ size while increasing in power efficiency and sophistication. Edge devices serve
 uses, though today’s interest in hands-free technology and automation make audio recognition a
 front runner.
 
-Problem Statement
+## Problem Statement
+
 Current standards in a popular subset of audio recognition known as speech recognition
 models present several barriers in their industry. The most common of which is the sheer volume
 requirement of data needed in order to attain acceptable levels of accuracy, often measured by
@@ -113,7 +118,8 @@ larger remote computers for executing, and sending the response back to the devi
 two additional challenges – high computation power and internet connectivity. Indirectly, the use
 of cloud computation introduces security vulnerabilities (Tanui, Meshack, 2020).
 
-Analysis Goals
+## Analysis Goals
+
 To overcome these challenges, we propose an artificial neural network for effective
 keyword and speaker recognition, leveraging unsupervised feature extraction, feature reduction,
 and distance metric learning methods, to suit Maxim Integrated’s low-bit and low-powered edge
@@ -138,28 +144,34 @@ By maximizing the trade-off of physical constraints of computing power and model
 accuracy, we deliver powerful audio recognition solutions to be implemented on Maxim
 Integrated’s specialized hardware.
 
-Variables and Scope
+## Variables and Scope
+
 Key variables to be investigated therein include feature extraction methods, training
 sample size, and other neural network features that impact computational expense (GPU and
 RAM consumption) such as loss function. While we will be optimizing our models for the
 specific hardware provided by Maxim, as defined in this paper, we will not venture into
 hardware as variable, as it is outside the scope of this project.
 
-Background
+## Background
+
 Maxim Integrated is an edge-computing technology company that manufactures and sells
 a wide variety of high-performance analog and mixed-signal products and technologies. Maxim
 specializes in solving design challenges related to power efficiency for a wide range of machines
 from cars to wearable devices, miniaturization, and security on application-specific solutions in
 the automotive, manufacturing, healthcare, communications, and cloud computing industries.
 
-Literature Review
+## Literature Review
+
 _Few Shot Learning_
+
 Awasthi et al. (2021) recognized the importance for KWS models to adapt to new classes
 using fewer samples, as providing extensive samples (for instance, over a 1000) is burdensome
 to users. They go on to implement a model requiring fewer samples (known as few shot KWS) to
 allow for on device customization and introduction of new words. The model's performance is
 most improved by implementing a loss function.
+
 _Local Computation_
+
 Edge computing devices can ameliorate data privacy concerns in that they eliminate the
 risk of data leakages posed by moving data to the cloud (Mark Ryan 2010). Edge computing also
 reduces latency down to milliseconds while minimizing network bandwidth (Plastiras, George
@@ -173,7 +185,9 @@ without sacrificing model accuracy. Several models have been optimized for deplo
 devices, including Mobile Nets (Howard and Andrew 2017), Squeeze Nets (Iandola, Forrest and
 Han 2016). It’s important to have a smaller and efficient network to run the model on mobile
 devices - which has smaller memory and processing power.
+
 _Siamese Networks_
+
 The Siamese Neural network was introduced for the first time in the 1990s by Bromley
 and LeCun to solve signature verification as an image matching problem (Bromley and LeCun
 1993). A siamese neural network consists of twin networks which accept distinct pairwise inputs
@@ -186,7 +200,9 @@ similar data points to very different locations in the feature space because eac
 same weights and functions. If the audio is similar they should output the same results and if they
 are different they will output different results. This difference can be captured using different
 similarity metrics.
+
 _Distance Metric Learning_
+
 Killian Weinberg and Laurence Saul (2009) noted that traditional similarity models, like
 k nearest neighbors, rely heavily on the distance calculated between classes. In exploring several
 methods to exploit this margin, different outcomes can be obtained. The authors go on to posit
@@ -195,8 +211,10 @@ allowing the model to adapt and more accurately classify different labels. This 
 be an effective method for margin maximization and can improve model performance by
 increasing the separation between classes.
 
-Data
+## Data 
+
 _Data Sources_
+
 To accomplish both KWS and SID, training data will be collected from multiple sources:
 Google, VoxCeleb and LibriSpeech. Each data source will provide two features: an mp3 clip
 (unstructured) and a text label (categorical). Google's Speech Command Dataset will be
@@ -212,18 +230,23 @@ audiobooks from the LibriVox project, and has been carefully segmented and align
 artifacts such as microphone buzz. Some of the limitations of this dataset are that we have to
 build a neural network model with Sparse Training Dataset, the Hardware limitation and trying
 to build a compact model.
+
 _Assumptions_
+
 The data leveraged in this project is pre-cleaned by the providing institutions. It is
 assumed that all utterances are correctly labeled. With the exception of Librispeech noisey
 dataset, all other utterances are collected from controlled environments without interfering
 sounds from unintended sources.
+
 _Descriptive Analysis_
+
 dataset contains audio from controlled environments with no external noise, just recording
 artifacts such as microphone buzz. Some of the limitations of this dataset are that we have to
 build a neural network model with Sparse Training Dataset, the Hardware limitation and trying
 to build a compact model.
 
-Methodology
+## Methodology
+
 Our proposed model will build on each of the approaches discussed in our literature
 review. Starting with data transformation, we compare several unsupervised feature extraction
 methods; reviewing the output feature structure of each method informs computation trade off
@@ -235,6 +258,7 @@ models using various sample sizes to train our model, and leave out all others f
 Lastly, to assess the generalizability of our model to unseen data, we use the validation samples
 in addition to real-world data collected from our community to obtain false alarm rates on
 models trained on the different sample sizes.
+
 To measure our model’s improvement on current industry standards (leveraging
 computationally expensive processes and networks requiring a large amount of training data),
 we’ll first create a convolutional neural network to establish a baseline model with different
@@ -245,21 +269,27 @@ size identified, we will introduce a Siamese neural network, a class of CNN, to 
 performance deficit identified with few shot samples. Finally, our SID and KWS models can be
 combined to provide a speaker-aware KWS system that performs with maximum precision and
 less false alarms per hour.
+
 _Feature Engineering_
+
 The nature of sound signal data is complex, containing not only signals, but also
 information about the speaker, language, and noise. This complexity requires extensive
 segmentation and feature extraction to obtain quantifiable representations to feed into machine
 learning models. Various methods to accomplish this have been established in audio recognition
 and yield different results. Because we do not know which method will provide the best response
 for our use case, we’ll explore several options in our baseline models.
+
 _FairSeq_
+
 Similar to work by Schneider, Baevski, Collobert, and Auli, we will explore an
 unsupervised feature extraction method, FairSeq, before strengthening our models with
 supervised training. FairSeq uses a Wav2vec network to extract features in a two step process.
 The first step is running sound wave data through an encoder that embeds the signal in latent
 space, which allows for similar data points to be represented by proximity to one another. The
 second step involves feeding the information to the transformer.
+
 _Mel Frequency Ceptral Coefficients_
+
 Like Wav2vec, Mel Frequency Ceptral Coefficients (MFCC) is another common method
 of signal processing, with the goal being to transform a speech waveform into a parametric
 representation (Rashidul Hasan, Mustafa Jamil, Golam Rabbani, and Saifur Rahman). Audio
@@ -269,7 +299,9 @@ quasi-stationary and exhibit little change in sound wave. To create the feature 
 transformed to the Mel Frequency Scale which is composed of two primary features: linear
 frequency spacing for sounds below 1000 Hz and logarithmic spacing for sounds over that
 threshold.
+
 _PCA_
+
 Both MFCC and FairSeq feature creation methods result in high dimensional outputs. To
 counterbalance the size of these outputs and reduce stress on computational constraints, we
 explored model performance of these techniques in combination with principal component
@@ -277,23 +309,29 @@ analysis, or PCA. PCA allows us to prune high dimensional outputs down by removi
 insignificant features, leaving the most necessary and heavily utilized features behind for further
 processing.
 
-Modeling Framework
+## Modeling Framework
+
 _Architecture_
+
 For consistency with Maxim Integrated’s AI architecture, executable files will organize
 our train and validation processes into 1) Retrieving, extracting and augmenting data sources, 2)
 Initializing PyTorch models leveraging Maxim’s custom PyTorch Library, ai8x, 3) Model
 Training, and 4.) measuring computational expenses and validating performance. Following Maxim’s architecture will ease company adoption of the models developed for this project and
 ensure smooth implementation.
+
 The nature of the pytorch, neural networks and sheer size of training datasets requires
 that model training takes place over hardware equipped with Ubuntu Linux 20.04. Hardware
 acceleration is highly recommended. For consistent computing without local hardware
 limitations, data will be stored and processed using a secure remote computer provided by
 Maxim.
+
 _Baseline Models_
+
 The CNN baseline performance was established using three iterations of 4-layer CNN,
 varying feature extraction methods. This provided us with insights on the performance of models
 using FairSeq, MFCC, and Fairseq with PCA. For each iteration, we used a batch size of 64, a
 learning rate of .01, and trained for 20 epochs.
+
 The first iteration of FairSeq based model has around 512 feature spaces,while the MFCC
 model contains around 20 features and the combined FairSeq PCA model comprises about 81
 features. The 81 features in the FairSeq PCA model explain around 90% variance. For all of
@@ -302,7 +340,7 @@ In comparing model performance on test accuracy, FairSeq with PCA performs best.
 From this baseline, we implement our siamese network with distance metric learning on the
 initial FairSeq PCA model.
 
-Conclusion
+## Conclusion
 The accuracy improvement of combined methodologies of FairSeq, PCA and Siamese
 over traditional models prove worth deeper exploration and implementation in the audio
 recognition space. Combining Distance Metric Learning techniques with shallow neural
@@ -315,74 +353,91 @@ samples of a keyword. By leveraging a siamese keyword spotting model, not only i
 on users reduced without sacrificing model performance, but the added inconveniences and risks
 of cloud based competitors is also avoided.
 
-Recommendations
+## Recommendations
 Future work is recommended on integrating KWS models for a speaker aware few shot
 keyword spotting model. Expanding model training and tuning on new sources of data, such as
 real-world collections would be a reasonable next step. Joining KWS models with additional
 audio recognition tools such as Speaker Identification and Noise Suppression would further
 improve the performance of audio recognition devices.
 
-References
+## References
+
 Bromley, Jane, James Bentz, Léon Bottou, Isabelle Guyon, Yann LeCun, Cliff Moore, Eduard
 Säckinger, and Roopak Shah. “Signature Verification Using a 'Siamese' Time Delay
 Neural ...” Accessed November 3, 2021.
 https://proceedings.neurips.cc/paper/1993/file/288cc0ff022877bd3df94bc9360b9c5d-Pap
 er.pdf.
+
 Felzenszwalb, Pedro, Ross Girshick, David McAllester, and Deva Ramanan. “Object Detection
 with Discriminatively Trained Part Based Models.” IEEE Xplore . Accessed November
 3, 2021. https://ieeexplore.ieee.org/document/5255236/.
+
 Furui, Sadaoki. "Speaker recognition in smart environments." In Human-Centric Interfaces for
 Ambient Intelligence, pp. 163-184. Academic Press, 2010.
 Gales, Mark, and Steve Young. “The Application of Hidden Markov Models in Speech
 Recognition.” Foundations and Trends in Signal Processing. Accessed November 3,
 2021. http://www.nowpublishers.com/article/DownloadSummary/SIG-004.
+
 Gartner_Inc. “Forecast: Internet of Things - Endpoints and Associated Services, Worldwide,
 2017.” Gartner. Accessed November 3, 2021.
 https://www.gartner.com/en/documents/3840665/forecast-internet-of-things-endpoints-an
 d-associated-ser.
+
 Geron, Aurelien. “Hands-on Machine Learning with Scikit-Learn and Tensorflow.” Accessed
 November 3, 2021.
 https://upload.houchangtech.com/pdf/Hands-on_Machine_Learning.pdf.
+
 Gu, Jiuxiang, Zhenhua Wang, Jason Kuen, Lianyang Ma, Amir Shahroudy, Bing Shuai, Ting
 Liu, et al. “Recent Advances in Convolutional Neural Networks.” Pattern Recognition.
 Pergamon, October 11, 2017.
 https://www.sciencedirect.com/science/article/abs/pii/S0031320317304120.
+
 Han, Song, Huizi Mao, and William J. Dally. “Deep Compression: Compressing Deep Neural
 Networks with Pruning, Trained Quantization and Huffman Coding.” arXiv.org, January
 19, 2016. https://arxiv.org/abs/1510.00149v4.
+
 Hasan, Md & Jamil, Mustafa & Rabbani, Golam & Rahman, Md. Saifur. (2004). Speaker
 Identification Using Mel Frequency Cepstral Coefficients. Proceedings of the 3rd
 International Conference on Electrical and Computer Engineering (ICECE 2004).
 He, Kaiming, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. “Deep Residual Learning for Image
 Recognition.” arXiv.org, December 10, 2015. https://arxiv.org/abs/1512.03385.
+
 Hinton, Geoffrey, Oriol Vinyals, and Jeff Dean. “Distilling the Knowledge in a Neural Network.”
 arXiv.org, March 9, 2015. https://arxiv.org/abs/1503.02531.
+
 Howard, Andrew G., Menglong Zhu, Bo Chen, Dmitry Kalenichenko, Weijun Wang, Tobias
 Weyand, Marco Andreetto, and Hartwig Adam. “MobileNets: Efficient Convolutional
 Neural Networks for Mobile Vision Applications.” arXiv.org, April 17, 2017.
 https://arxiv.org/abs/1704.04861.
+
 Iandola, Forrest N., Song Han, Matthew W. Moskewicz, Khalid Ashraf, William J. Dally, and
 Kurt Keutzer. “Squeezenet: Alexnet-Level Accuracy with 50x Fewer Parameters and
 <0.5MB Model Size.” arXiv.org, April 6, 2016. https://arxiv.org/abs/1602.07360v3.
+
 Koch, Gregory, Richard Zemel, and Ruslan Salakhutdinov. “Siamese Neural Networks for
 One-Shot Image Recognition.” Department of Computer Science, University of Toronto.
 Accessed November 3, 2021. https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf.
+
 Merenda, Massimo, Carlo Porcaro, and Demetrio Iero. “Edge Machine Learning for AI-Enabled
 IOT Devices: A Review.” MDPI. Multidisciplinary Digital Publishing Institute, April 29,
 2020. https://www.mdpi.com/1424-8220/20/9/2533.
+
 Plastiras, George, Maria Terzi, Christos Kyrkou, and Theocharis Theocharidcs. "Edge
 intelligence: Challenges and opportunities of near-sensor machine learning applications."
 In 2018 IEEE 29th international conference on application-specific systems, architectures
 and processors (asap), pp. 1-7. IEEE, 2018.
+
 Ravi, S, Larochelle, H. (n.d.). Optimization as a model for few-shot learning - openreview.
 Retrieved February 23, 2022, from https://openreview.net/pdf?id=rJY0-Kcll
+
 Ryan, Mark D. "Cloud computing privacy concerns on our doorstep." Communications of the
 ACM 54, no. 1 (2011): 36-38.
-Schneider, Steffen, Alexei Baevski, Ronan Collobert, and Michael Auli. (2020, June 10). Deep
-learning with Bert on azure ML for text classification.
+
+Schneider, Steffen, Alexei Baevski, Ronan Collobert, and Michael Auli. (2020, June
+ 10). Deep learning with Bert on azure ML for text classification.
 TECHCOMMUNITY.MICROSOFT.COM. Retrieved February 23, 2022, from
-https://techcommunity.microsoft.com/t5/ai-customer-engineering-team/deep-learning-wit
-h-bert-on-azure-ml-for-text-classification/ba-p/1149262
+https://techcommunity.microsoft.com/t5/ai-customer-engineering-team/deep-learning-with-bert-on-azure-ml-for-text-classification/ba-p/1149262
+
 Tanui, Meshack. "Insecurity in the Internet of Things-Amazon Alexa." (2020)
 Weinberger, Killian, and Lawrence Saul. (2009). Distance metric learning for large margin
 nearest neighbor Classification. Journal of Machine Learning Research. Retrieved
