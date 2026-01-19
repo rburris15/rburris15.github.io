@@ -58,14 +58,14 @@ education:
     date_start: 2020-09-01
     date_end: 2022-03-30
     summary: |
-      -Capstone Project on Speaker Identification & Few-Shot Keyword Spotting for Edge Devices. Supervised by Dr Utku Pamuksuz.
-      -_Awarded Best in Show_
+      - Capstone Project on Speaker Identification & Few-Shot Keyword Spotting for Edge Devices. Supervised by Dr Utku Pamuksuz.
+      - _Awarded Best in Show_
     button:
       text: 'Read Paper'
       url: 'https://drive.google.com/file/d/1FsLdoDboVMoCwg72_S9ygIwFXJyxzBol/view?usp=sharing'
   - area: Bachelors of Arts
     institution: University of Washington
-    icon: custom/uw_w-logo-white
+    icon: custom/uw-logo-purple
     date_start: 2011-09-01
     date_end: 2015-05-31
     summary: |
