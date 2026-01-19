@@ -54,7 +54,7 @@ interests:
 education:
   - area: Masters in Applied Data Science (AI Focus)
     institution: University of Chicago
-    icon: ""
+    icon: uc_logo_white
     date_start: 2020-09-01
     date_end: 2022-03-30
     summary: |
@@ -64,7 +64,7 @@ education:
       url: 'https://drive.google.com/file/d/1FsLdoDboVMoCwg72_S9ygIwFXJyxzBol/view?usp=sharing'
   - area: Bachelors of Arts
     institution: University of Washington
-    icon: ""
+    icon: uw_logo_white
     date_start: 2011-09-01
     date_end: 2015-05-31
     summary: |
@@ -79,19 +79,19 @@ work:
     icon: ''
     date_start: '2020-01-01'
     date_end: '2025-09-26'
-    summary: |2-
-      Create pipelines to ingest, transform and store disparate datasets for analysis and modelling leveraging cloud based platforms.
-      Develop and deploy ML and generative-AI models supporting analytics and research applications across business domains.
+    summary: |
+      - Create pipelines to ingest, transform and store disparate datasets for analysis and modelling leveraging cloud based platforms.
+      - Develop and deploy ML and generative-AI models supporting analytics and research applications across business domains.
       
   - position: Data Science, Teaching Assistant
     company_name: University of Chicago
-    company_url: 'https://openai.com/'
+    company_url: 'https://uchicago.com/'
     icon: ''
     date_start: '2022-01-01'
     date_end: '2023-12-31'
     summary: |
-     Supported graduate level instruction in machine learning, model evaluation, and deep learning workflows using PyTorch and GCP. 
-     Mentored students on ML lifecycle best practices, reproducibility, and communicating technical results effectively.
+     - Supported graduate level instruction in machine learning, model evaluation, and deep learning workflows using PyTorch and GCP. 
+     - Mentored students on ML lifecycle best practices, reproducibility, and communicating technical results effectively.
 
 
 # Skills
@@ -111,6 +111,10 @@ skills:
         description: ''
         percent: 65
         icon: cloud
+      - name: Pipeline Development
+        description: ''
+        percent: 65
+        icon: hero/beaker
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -127,12 +131,17 @@ skills:
         description: ''
         percent: 70
         icon: book-open
+      - name: Health & Fitness
+        description: ''
+        percent: 70
+        icon: barbell
+
 
 languages:
   - name: English
     percent: 100
-  #- name: German
-    #percent: 01
+  - name: German
+    #percent: 05
 
 # Awards.
 #   Add/remove as many awards below as you like.
