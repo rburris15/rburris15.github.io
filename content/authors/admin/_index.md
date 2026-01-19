@@ -63,14 +63,14 @@ education:
     button:
       text: 'Read Paper'
       url: 'https://drive.google.com/file/d/1FsLdoDboVMoCwg72_S9ygIwFXJyxzBol/view?usp=sharing'
+  
   - area: Bachelors of Arts
     institution: University of Washington
     icon: custom/uw-logo-purple
     date_start: 2011-09-01
     date_end: 2015-05-31
     summary: |
-      GPA: 3.8/4.0
-
+      - GPA: 3.8/4.0
       - Specialized in Neuropyschology Research.
 
 work:
@@ -100,7 +100,7 @@ work:
 skills:
   - name: Technical Skills
     items:
-      - name: Python & PyTorch
+      - name: Python
         description: ''
         percent: 95
         icon: code-bracket
@@ -108,7 +108,7 @@ skills:
         description: ''
         percent: 100
         icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
+      - name: Cloud Platforms
         description: ''
         percent: 65
         icon: cloud
