@@ -47,9 +47,9 @@ hugoblox:
     doi: 
 
 # Custom links
-#links:
-#  - type: pdf
-#    url: ""
+links:
+  - type: pdf
+    url: "https://drive.google.com/file/d/1FsLdoDboVMoCwg72_S9ygIwFXJyxzBol/view?usp=drive_link"
 #  - type: code
 #    url: https://github.com/HugoBlox/hugo-blox-builder
 #  - type: dataset

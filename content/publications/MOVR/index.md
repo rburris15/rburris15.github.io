@@ -32,12 +32,6 @@ featured: true
 links:
 - type: pdf
   url: https://journals.sagepub.com/doi/reader/10.3233/JND-221551
-#- type: code
-#  url: https://github.com/HugoBlox/hugo-blox-builder
-- type: dataset
-  url: "#"
-- type: poster
-  url: "#"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

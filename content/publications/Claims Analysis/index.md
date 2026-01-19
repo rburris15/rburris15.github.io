@@ -29,15 +29,9 @@ tags:
 
 featured: true
 
-hugoblox:
-  ids:
-    doi: 10.1002
-
 links:
   - type: pdf
     url: https://onlinelibrary.wiley.com/doi/epdf/10.1002/mus.28313
-  - type: dataset
-    url: ""
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
