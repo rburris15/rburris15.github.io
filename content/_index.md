@@ -34,9 +34,9 @@ sections:
       title: '📚 Career Goals'
       subtitle: ''
       text: |-
-        My goal is to harness data science and AI to create tools that simplify complex workflows and empower informed decision-making. I aim to turn data into actionable insights that help teams work more efficiently and strategically. Ultimately, I strive to make advanced analytics accessible and impactful across both technical and business domains.
+        I'm passionate about using data science and AI to create tools that simplify complex workflows and empower informed decision-making. I love turning data into actionable insights that help teams work more efficiently and strategically. Ultimately, I strive to make advanced analytics accessible and impactful across both technical and business domains.
 
-        Please reach out to collaborate 😃
+        Please reach out to collaborate!
     design:
       columns: '1'
   - block: collection

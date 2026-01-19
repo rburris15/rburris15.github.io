@@ -46,14 +46,14 @@ profiles:
     url: https://scholar.google.com/citations?user=rachaelburris
 
 interests:
-  - Tranlating Insights & Executive Summaries
+  - Translating Insights & Executive Summaries
   - Large Language Models
   - Multi Models and Prompt Chaining
   - AI Workplace Implementation
 
 education:
   - area: Masters in Applied Data Science (AI Focus)
-    institution: Univesity of Chicago
+    institution: University of Chicago
     icon: ""
     date_start: 2020-09-01
     date_end: 2022-03-30
@@ -61,7 +61,7 @@ education:
       Capstone Project on Speaker Identification & Few-Shot Keyword Spotting for Edge Devices. Supervised by Dr Utku Pamuksuz. _Awarded Best in Show_
     button:
       text: 'Read Paper'
-      url: 'https://drive.google.com/file/d/1_gB9OcBcDUdxzTcD-2kt_DqDqYEdSQ2n/view?usp=sharing)'
+      url: 'https://drive.google.com/file/d/1FsLdoDboVMoCwg72_S9ygIwFXJyxzBol/view?usp=sharing'
   - area: Bachelors of Arts
     institution: University of Washington
     icon: ""
@@ -80,15 +80,18 @@ work:
     date_start: '2020-01-01'
     date_end: '2025-09-26'
     summary: |2-
+      Create pipelines to ingest, transform and store disparate datasets for analysis and modelling leveraging cloud based platforms.
       Develop and deploy ML and generative-AI models supporting analytics and research applications across business domains.
+      
   - position: Data Science, Teaching Assistant
-    company_name: OpenAI
+    company_name: University of Chicago
     company_url: 'https://openai.com/'
     icon: ''
-    date_start: 2022
-    date_end: 2023
+    date_start: '2022-01-01'
+    date_end: '2023-12-31'
     summary: |
-     Supported graduate level instruction in machine learning, model evaluation, and deep learning workflows using PyTorch and GCP. Mentored students on ML lifecycle best practices, reproducibility, and communicating technical results effectively.
+     Supported graduate level instruction in machine learning, model evaluation, and deep learning workflows using PyTorch and GCP. 
+     Mentored students on ML lifecycle best practices, reproducibility, and communicating technical results effectively.
 
 
 # Skills
@@ -143,4 +146,6 @@ awards:
     
 ---
 
-Rachael is a data science and machine learning engineer with 5 years of experience developing and optimizing automated, data driven tools -- from interactive executive dashboards, to free, open source AI applications. Skilled in business translation, python, and cloud based platforms with a focus on responsible and user friendly solutions. Adept at transforming complex business challenges into production-ready products through CI/CD and close cross-functional collaboration. Passionate about advancing equitable technology that improves decision-making and saves users time.
+Rachael is a data science and machine learning engineer with experience developing and optimizing automated, data driven tools -- from interactive executive dashboards, to free, open source AI applications. Skilled in business translation, python, and cloud based platforms with a focus on responsible and user friendly solutions. Adept at transforming complex business challenges into production-ready products through CI/CD and close cross-functional collaboration. Passionate about advancing equitable technology that improves decision-making and saves users time.
+
+Outside of her professional life, Rachael enjoys living an active lifestyle full of weight lifting and outdoor sports, playing games with her friends (anything from board games to mobile games), volunteering with animal and environmental welfare organizations, reading and cooking.
