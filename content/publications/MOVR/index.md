@@ -21,7 +21,10 @@ publication_short: ""
 summary: This manuscript provides a description of MOVR, participants enrolled in MOVR, and longitudinal data availability.
 
 tags:
-- Large Language Models
+- CDISC Transformations
+- Healthcare Data
+- Rare Disease
+
 
 featured: true
 

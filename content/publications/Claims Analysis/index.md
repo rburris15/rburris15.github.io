@@ -25,7 +25,10 @@ abstract: Claims-based analyses have demonstrated high medical costs associated 
 
 
 tags:
-- Source Themes
+- Real World Analysis
+- Rare Disease
+- Observational Research
+
 featured: true
 
 hugoblox:
