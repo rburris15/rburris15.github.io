@@ -2,6 +2,9 @@
 # Guide: https://docs.hugoblox.com/tutorial/
 # Documentation: https://docs.hugoblox.com/
 
+# favicon
+favicon: "/favicon.ico"
+
 # Appearance
 appearance:
   mode: system
