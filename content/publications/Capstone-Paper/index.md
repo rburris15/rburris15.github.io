@@ -84,7 +84,7 @@ projects:
 slides: ""
 ---
 
-**Abstract**
+## Abstract
   Demand for portable computers, known as edge computing devices, has been on the rise in the
   past decade. To keep pace with the ever increasing speed of the internet, research into the
   optimization of edge devices is crucial. Each year, Consumers expect more computing power,
@@ -95,7 +95,7 @@ slides: ""
   system that can fit MAX78000 to recognize customized keywords and speaker efficiency by
   training the Siamese neural network that performs with maximum precision and fewer false
   alarms per hour of speech.
----
+
 
 ## Introduction
 
