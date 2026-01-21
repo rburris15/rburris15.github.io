@@ -15,9 +15,9 @@ sections:
       username: admin
       text: ''
       # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
+      #button:
+        #text: Download CV
+        #url: uploads/resume.pdf
       headings:
         about: ''
         education: ''
@@ -37,6 +37,9 @@ sections:
         I'm passionate about using data science and AI to create tools that simplify complex workflows and empower informed decision-making. I love turning data into actionable insights that help teams work more efficiently and strategically. Ultimately, I strive to make advanced analytics accessible and impactful across both technical and business domains.
 
         Please reach out to collaborate!
+      button:
+      text: Contact Me!
+      url: mailto:rachaelburris15@gmail.com
     design:
       columns: '1'
   - block: collection
