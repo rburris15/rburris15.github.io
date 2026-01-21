@@ -74,7 +74,7 @@ education:
       - Specialized in Neuropyschology Research.
 
 work:
-  - position: Data Engineer, Director of Data Analytics
+  - position: Data Engineer/Scientist, Director of Data Analytics
     company_name: Muscular Dystrophy Association
     company_url: 'https://mda.org'
     icon: ''
@@ -82,7 +82,10 @@ work:
     date_end: '2025-09-26'
     summary: |
       - Create pipelines to ingest, transform and store disparate datasets for analysis and modelling leveraging cloud based platforms.
-      - Develop and deploy ML and generative-AI models supporting analytics and research applications across business domains.
+      - Reduced manual reporting through automated SQL and Python pipelines feeding Tableau dashboards
+      - Develop ML and generative-AI models supporting analytics and research applications across business domains.
+      - Mentor and manage junior analysts as direct and indirect reports
+      - Collaborate with cross functional leadership and execute on enterprise wide data strategy
       
   - position: Data Science, Teaching Assistant
     company_name: University of Chicago
@@ -91,8 +94,8 @@ work:
     date_start: '2022-01-01'
     date_end: '2023-12-31'
     summary: |
-     - Supported graduate level instruction in machine learning, model evaluation, and deep learning workflows using PyTorch and GCP. 
-     - Mentored students on ML lifecycle best practices, reproducibility, and communicating technical results effectively.
+     - Supported graduate level instruction in machine learning, model evaluation, data visualization and deep learning workflows using Python and Cloud Platforms.
+     - Mentored students on ML best practices, reproducibility, and communicating technical results effectively, including: EDA & data profiling, data modelling, dataset readiness for visualization and ML, and delivery of analytic findings.
 
 
 # Skills

@@ -43,8 +43,8 @@ featured: true
 
 # Standard identifiers for auto-linking
 hugoblox:
-  ids:
-    doi: 
+#  ids:
+#    doi: 
 
 # Custom links
 links:
