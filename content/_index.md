@@ -38,8 +38,8 @@ sections:
 
         Please reach out to collaborate!
       button:
-      text: Contact Me!
-      url: mailto:rachaelburris15@gmail.com
+        text: Contact Me!
+        url: mailto:rachaelburris15@gmail.com
     design:
       columns: '1'
   - block: collection
