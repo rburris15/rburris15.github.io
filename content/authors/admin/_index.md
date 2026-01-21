@@ -13,7 +13,7 @@ last_name: Burris
 pronouns: She/her
 
 # Location
-location: Düsseldorf, DE
+location: Düsseldorf, DE & Chicago, IL
 
 # Status emoji
 #status:
