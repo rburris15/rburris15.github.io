@@ -30,7 +30,7 @@ role: Data Science and AI
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Düsseldorf, DE
+  - name: Düsseldorf, DE & Chicago, IL
     url: 
 
 # Social network links
