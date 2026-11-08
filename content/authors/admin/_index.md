@@ -74,6 +74,20 @@ education:
       - Specialized in Neuropyschology Research.
 
 work:
+  - position: BI Developer, Team Lead Business Intelligence
+    company_name: Metro Markets GmbH
+    company_url: 'https://metro-markets.de'
+    icon: ''
+    date_start: '2026-06-01'
+    date_end: ''
+    summary: |
+      - Lead enterprise BI architecture and analytics engineering strategy, translating business requirements into scalable data products and operational intelligence solutions.
+      - Directed Microsoft Fabric migration for 600 users, reducing memory timeouts and improving reliability through monitoring, alerts, and report optimization.
+      - Develop and oversee ETL pipelines and dbt transformations in ClickHouse, using GitHub for version control and collaborative development.
+      - Design enterprise data models and define entity relationships, lineage, ownership, and quality standards using OpenMetadata and dbt YAML.
+      - Manage seven direct reports and guide cross-functional developers in CI/CD, analytics engineering, and AI-assisted development practices.
+      - AI Ambassador: Serve as a designated early adopter, identifying and benchmarking AI use cases, monitoring implementation outcomes, and sharing best practices to drive enterprise adoption.
+
   - position: Data Engineer/Scientist, Director of Data Analytics
     company_name: Muscular Dystrophy Association
     company_url: 'https://mda.org'
