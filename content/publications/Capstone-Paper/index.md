@@ -37,6 +37,9 @@ tags:
   - Deep Learning Models
   - Few-shot Training
   - PyTorch
+  - AI Model
+  - Wearable Device Technology
+  - Personal Assistant
 
 # Display this page in the Featured widget?
 featured: true
